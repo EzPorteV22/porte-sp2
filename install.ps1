@@ -6,7 +6,7 @@ $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'   # acelera mucho Invoke-WebRequest en PS 5.1
 
 # ---- CONFIG (editar) ----------------------------------------------------
-$ExeUrl   = 'https://github.com/EzPorteV22/porte-sp/releases/latest/download/PorteSP.exe'
+$ExeUrl   = 'https://github.com/EzPorteV22/porte-sp2/releases/latest/download/PorteSP.exe'
 $Sha256   = '2b44870846aa01105f9ca3279570166fb5c84f7223ce944f17cb19fc6dd7f467'  # actualizar en cada version nueva
 $AppName  = 'PorteSP'
 $InstallDir = Join-Path $env:LOCALAPPDATA $AppName
